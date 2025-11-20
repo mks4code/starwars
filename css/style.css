@@ -65,6 +65,13 @@ ul, ol { padding-left: 20px; }
   border: 1px solid #2a2f52;
   padding: 12px;
   margin-bottom: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 20px rgba(255, 232, 31, 0.3);
 }
 
 .site-footer {
