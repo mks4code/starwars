@@ -87,6 +87,7 @@ a:link,
 a:visited {
   color: #B3A400;
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 a:hover {
